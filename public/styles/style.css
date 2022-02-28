@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-blue-dark {
+  background-color: #39315C;
+}
+
+.bg-blue-medium {
+  background-color: #7E84C9;
+}
+
+.bg-blue-light {
+  background-color: #E5EDFA;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.fc-blue-dark {
+  color: #39315C;
+}
+
+.fc-blue-medium {
+  color: #7E84C9;
+}
+
+.fc-blue-light {
+  color: #E5EDFA;
+}
+
+.fc-white {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+
+.btn-send {
+  background-color: #39315C;
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.btn-send:hover {
+  background-color: #E5EDFA;
+  font-weight: 700;
+  color: #39315C !important;
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.form-sender {
+  -webkit-animation: fade-in 1s linear alternate;
+          animation: fade-in 1s linear alternate;
+}
+
+.form-sender .card {
+  width: 600px;
+  min-height: 400px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.form-sender .card .heading {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+
+.form-sender .card .form-input {
+  margin: 50px;
+}
+
+.form-sender .card .form-input .form-control {
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .form-sender .card {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .form-sender .card .heading {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .form-sender .card .form-input {
+    margin: 20px;
+  }
+  .form-sender .card .form-input .form-control {
+    border-radius: 10px;
+  }
+}
+
+.success .card {
+  width: 600px;
+  min-height: 400px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.success .card .heading {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.success .card .description {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 500px) {
+  .success .card {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .success .card .heading {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .success .card .description {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+.twitter-card {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.twitter-card .control-back .txt-control {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+.twitter-card .card {
+  border-radius: 15px;
+  min-height: 100px;
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.123);
+  color: white;
+}
+
+.twitter-card .card .head-card {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.twitter-card .card .head-card .profile {
+  width: 50px;
+  height: 50px;
+}
+
+.twitter-card .card .head-card .twitter {
+  margin-top: 2px;
+  width: 35px;
+  height: 35px;
+}
+
+.twitter-card .card .head-card p {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.twitter-card .card .text-sender {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.twitter-card .card .time-stamp {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.twitter-card .card .twit-stats {
+  margin-top: -10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.twitter-card .card .twit-stats p {
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .twitter-card .card {
+    border-radius: 15px;
+    min-height: 100px;
+    width: 400px;
+  }
+  .twitter-card .card .head-card {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .twitter-card .card .head-card .profile {
+    width: 50px;
+    height: 50px;
+  }
+  .twitter-card .card .head-card .twitter {
+    margin-top: 2px;
+    width: 35px;
+    height: 35px;
+  }
+  .twitter-card .card .head-card p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+  }
+  .twitter-card .card .text-sender {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .twitter-card .card .time-stamp {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 100;
+    font-size: 12px;
+  }
+  .twitter-card .card .twit-stats {
+    margin-top: -10px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .twitter-card .card .twit-stats p {
+    font-size: 12px;
+  }
+}
+
+.twit-timeline {
+  width: 100%;
+  min-height: 2000px;
+  padding-bottom: 15px;
+  color: white !important;
+}
+
+.twit-timeline .timeline-heading {
+  background-color: rgba(57, 49, 92, 0.87) !important;
+}
+
+.twit-timeline .write-post img {
+  width: 40px;
+  height: 40px;
+}
+
+.twit-timeline .write-post textarea {
+  width: 100%;
+  border: none;
+  background-color: #39315C;
+  outline: none;
+}
+
+.twit-timeline .twitter {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 500px) {
+  .twit-timeline .twitter {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.twit-timeline .command .btn-tweet {
+  background-color: #7E84C9;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.twit-timeline .command .btn-tweet:hover {
+  background-color: #E5EDFA;
+  color: #39315C;
+}
+
+.twit-timeline .timeline-body .head-card {
+  margin-top: 20px;
+}
+
+.twit-timeline .timeline-body .head-card .profile {
+  width: 50px;
+}
+
+.twit-timeline .timeline-body .head-card p {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.twit-timeline .timeline-body .text-sender {
+  margin-top: 20px;
+}
+
+.twit-timeline .timeline-body .time-stamp {
+  margin-top: 15px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.twit-timeline .timeline-body .twit-stats {
+  margin-top: -10px;
+}
+
+.twit-timeline .timeline-body .twit-stats p {
+  font-size: 12px;
+}
+
+.twit-timeline .timeline-body .btn-tweet {
+  background-color: #7E84C9;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.twit-timeline .timeline-body .btn-tweet:hover {
+  background-color: #E5EDFA;
+  color: #39315C;
+}
+
+.side-menu {
+  min-height: 900px;
+}
+
+.side-menu .list-group {
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: auto;
+}
+
+.side-menu .list-group .list-group-item {
+  margin-left: -20px;
+  font-weight: 500;
+  border: none;
+  font-size: 17px;
+  background-color: #39315C !important;
+  color: white !important;
+}
+
+.side-menu .twitter {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 500px) {
+  .side-menu .twitter {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.side-menu .profile-bar {
+  margin-top: 270px;
+  font-size: 15px;
+}
+
+@media (max-width: 1400px) {
+  .side-menu .profile-bar {
+    margin-top: 200px;
+    font-size: 15px;
+  }
+}
+
+.highlight-tweets {
+  width: 100%;
+  height: 800px;
+}
+
+.highlight-tweets .input-search input {
+  background-color: #39315C;
+  color: white;
+}
+
+.highlight-tweets .highlighted .card-tweets {
+  background-color: #645897;
+  max-height: 400px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+
+.highlight-tweets .highlighted .card-tweets .tweet {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  background-color: #e5edfa8c;
+  color: #39315C;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.highlight-tweets .highlighted .card-tweets .tweet img {
+  width: 40px;
+  height: 40px;
+}
+
+.highlight-tweets .highlighted .card-tweets .tweet p {
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.highlight-tweets .highlighted .card-tweets .tweet:hover {
+  background-color: #E5EDFA;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.highlight-tweets .highlighted .card-trends {
+  background-color: #645897;
+  max-height: 300px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+
+.highlight-tweets .highlighted .card-trends .tweet {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  background-color: #e5edfa8c;
+  color: #39315C;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.highlight-tweets .highlighted .card-trends .tweet img {
+  width: 40px;
+  height: 40px;
+}
+
+.highlight-tweets .highlighted .card-trends .tweet p {
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.highlight-tweets .highlighted .card-trends .tweet:hover {
+  background-color: #E5EDFA;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+/*# sourceMappingURL=style.css.map */

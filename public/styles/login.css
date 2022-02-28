@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-blue-dark {
+  background-color: #39315C;
+}
+
+.bg-blue-medium {
+  background-color: #7E84C9;
+}
+
+.bg-blue-light {
+  background-color: #E5EDFA;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.fc-blue-dark {
+  color: #39315C;
+}
+
+.fc-blue-medium {
+  color: #7E84C9;
+}
+
+.fc-blue-light {
+  color: #E5EDFA;
+}
+
+.fc-white {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+
+.btn-login {
+  background-color: #E5EDFA;
+  color: #39315C;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  background-color: #7E84C9;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.btn-forgot {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.btn-forgot:hover {
+  background-color: #ffffff;
+  font-weight: 700;
+  color: #000000;
+}
+
+body {
+  overflow-y: scroll;
+  background-color: #39315C !important;
+  background-image: none;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.form-login {
+  -webkit-animation: fade-in 1s linear alternate;
+          animation: fade-in 1s linear alternate;
+}
+
+.form-login .card {
+  padding: 30px;
+  width: 500px;
+  min-height: 600px;
+  margin: 0;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.form-login .login {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-login .login form {
+  margin-top: 50px;
+}
+
+.form-login .login form input {
+  border-color: white;
+  background: none;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+}
+
+.form-login .login form input ::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.form-login .login form input :-ms-input-placeholder {
+  color: white !important;
+}
+
+.form-login .login form input ::-ms-input-placeholder {
+  color: white !important;
+}
+
+.form-login .login form input ::placeholder {
+  color: white !important;
+}
+
+@media (max-width: 500px) {
+  .form-login .card {
+    padding: 30px;
+    width: 400px;
+    min-height: 500px;
+    margin: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .form-login .login {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .form-login .login form {
+    margin-top: 50px;
+  }
+  .form-login .login form input {
+    border-color: white;
+    background: none;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+  }
+  .form-login .login form input ::-webkit-input-placeholder {
+    color: white !important;
+  }
+  .form-login .login form input :-ms-input-placeholder {
+    color: white !important;
+  }
+  .form-login .login form input ::-ms-input-placeholder {
+    color: white !important;
+  }
+  .form-login .login form input ::placeholder {
+    color: white !important;
+  }
+}
+/*# sourceMappingURL=login.css.map */

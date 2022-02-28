@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FAFBFC;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.fc-black {
+  color: #222222;
+}
+
+.fc-green {
+  color: #0adbb8;
+}
+
+.fc-gray {
+  color: #ADB1B8;
+}
+
+.button-split {
+  margin-top: 10px;
+}
+
+.verified {
+  margin-top: -5px;
+}
+
+.comment-txt {
+  background-color: #ecfaff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 8px;
+  padding-right: 15px;
+}
+
+.comment-moa {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #f5f7fa;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 8px;
+  padding-right: 15px;
+}
+
+.stats {
+  margin-top: -30px;
+}
+
+.navbar {
+  background-color: white !important;
+  height: 75px;
+}
+
+.content-weverse {
+  margin-top: 120px;
+}
+
+.content-weverse .left-menu {
+  margin-left: 10px;
+  margin-top: -120px;
+  padding-top: 120px;
+}
+
+.content-weverse .left-menu h2 {
+  font-size: 30px;
+}
+
+.content-weverse .left-menu p {
+  font-weight: 500;
+  color: #616161;
+}
+
+.content-weverse .left-menu .list-group .list-group-item {
+  border: none;
+  padding-left: -10px;
+  margin-left: -5px;
+  background-color: #FAFBFC;
+  color: #252525;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content-weverse .middle-menu .write-section .card {
+  border-radius: 10px;
+}
+
+.content-weverse .middle-menu .write-section .card textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+
+.content-weverse .middle-menu .write-section .card .btn-post {
+  background-color: #5ad8c3;
+  color: white;
+  font-size: 14px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+.content-weverse .middle-menu .write-section .card .btn-post:hover {
+  color: white;
+  background-color: #0adbb8;
+}
+
+.content-weverse .middle-menu .weverse-post .card {
+  border-radius: 10px;
+}
+
+.content-weverse .middle-menu .weverse-post .card p {
+  font-size: 12px;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #eeeeee !important;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment input {
+  margin-left: 10px;
+  color: white;
+  background-color: #eeeeee !important;
+  border: none;
+  outline: none !important;
+  outline-style: none;
+  outline-color: none;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment input ::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment input :-ms-input-placeholder {
+  color: white !important;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment input ::-ms-input-placeholder {
+  color: white !important;
+}
+
+.content-weverse .middle-menu .weverse-post .card .comment-section .card-comment input ::placeholder {
+  color: white !important;
+}
+
+.content-weverse .right-menu {
+  margin-top: -120px;
+  padding-top: 120px;
+}
+/*# sourceMappingURL=weverse.css.map */
